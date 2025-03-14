@@ -7,7 +7,6 @@ console.log(numeroSecreto);
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Famele', {rate: 1.2});
 }
 function mensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo Numero Secreto');
